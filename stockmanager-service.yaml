@@ -20,7 +20,7 @@ kind: ReplicationController
 metadata:
   name: stockmanager
 spec:
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
