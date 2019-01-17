@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: stockmanager
-        image: satishrawat/djstockmanager:1.0
+        image: 10.128.0.6:8081/microsvc-dev/djstockmanager:10
         ports:
         - containerPort: 8030
         livenessProbe:
